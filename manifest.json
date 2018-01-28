@@ -1,11 +1,14 @@
 {
   "name": "No Gore Twitter",
-  "version": "0.1",
+  "version": "1.0",
   "manifest_version": 2,
-  "description": "Gore image blocker for Twitter",
+  "description": "グロ画像タグが付いているツイートの画像表示をブロックします。 Icon created by Rudolf Horaczek from the Noun Project",
   "icons": {
-    "16": "images/dove.svg",
-    "128": "images/dove.svg"
+    "16": "images/dove_32.png",
+    "32": "images/dove_32.png",
+    "64": "images/dove_64.png",
+    "128": "images/dove_128.png",
+    "256": "images/dove_256.png"
   },
   "background": {
     "scripts": []
