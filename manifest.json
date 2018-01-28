@@ -1,0 +1,31 @@
+{
+  "name": "No Gore Twitter",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Gore image blocker for Twitter",
+  "icons": {
+    "16": "images/dove.png",
+    "128": "images/dove.png"
+  },
+  "background": {
+    "scripts": []
+  },
+  "permissions": [
+    "http://twitter.com/*",
+    "https://twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://twitter.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "scripts/jquery.js",
+        "scripts/nogore.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ]
+}
