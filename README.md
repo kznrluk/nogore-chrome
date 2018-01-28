@@ -10,4 +10,5 @@ Block gore image in Twitter.
 デベロッパーモードのChromeでCloneしたフォルダごと読み込んでください。
 
 ## TODO
-- DOMの再描写に対応
+- DOMの再描写に対応 (=> 対応完了)
+- 効率化
