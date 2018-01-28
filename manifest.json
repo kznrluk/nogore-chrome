@@ -4,8 +4,8 @@
   "manifest_version": 2,
   "description": "Gore image blocker for Twitter",
   "icons": {
-    "16": "images/dove.png",
-    "128": "images/dove.png"
+    "16": "images/dove.svg",
+    "128": "images/dove.svg"
   },
   "background": {
     "scripts": []
